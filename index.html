@@ -1,0 +1,628 @@
+<!Doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<script src="https://kit.fontawesome.com/07fa3d3b0b.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+<style type="text/css">
+
+*{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+header{
+
+}
+#block-a{
+	width:100%;
+     background-color:rgba(255,245,0,0.8);
+    padding-left:25px;
+    padding-right:15px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+#logo{
+	display:flex;
+	align-self:center;
+	justify-content:center;
+}
+#head-social{
+	display:flex;
+	justify-content:flex-end;
+}
+h2.Audiowide{
+font-family: "Audiowide", sans-serif;
+color:rgb(214,35,93);
+font-weight:bold;
+}
+
+#head-social i{
+	color:yellow;
+    height:30px;
+    width:30px;
+    margin-right:10px;
+    font-size:20px;
+    border-radius:50%;
+    transition: all 0.2s ease-in-out;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.fa-facebook,.fa-instagram,.fa-linkedin,.fa-youtube,.fa-twitter {
+	background-color:rgb(214,35,93);
+}
+#block-b{
+	background-color:rgb(214,35,93);
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+#block-b #headimgs{
+ margin:10px 0px 15px 20px;
+}
+#block-b #desc{
+ display:flex;
+ align-items:stretch;
+ flex-direction:column;
+}
+#block-b h2{
+	color:yellow;
+	margin:4px 0px 10px 20px;
+}
+#desc-imgs{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:flex-end;
+	padding-left:30px;
+	margin-bottom:8px;
+}
+img.headimg{
+	width:150px;
+	height:150px;
+	margin-left:10px;
+}
+#block-b #desc-links{
+width:45%;
+background-color:rgb(41,31,116);
+display:flex;
+border-right:2px solid yellow;
+}
+#block-b ul.desc{
+	margin-top:35px;
+	width:100%;
+	text-align:left;
+	color:rgba(255,245,0,1.0);
+	padding-left:65px;
+	font-size:1.0em;
+}
+ul.desc li{
+	margin-top:8px;
+	margin-bottom:8px;
+	list-style-type:none;
+}
+#block-b ul.navbar{
+	width:100%;
+	height:27px;
+	background-color:yellow;
+	display:flex;
+	align-self:flex-end;
+	justify-content:space-between;
+	align-items:center;
+}
+ul.navbar li{
+	list-style-type:none;
+	text-align:center;
+	font-weight:bold;
+}
+ul.navbar a:link{
+   text-decoration:none;
+   	padding:4px;
+}
+ul.navbar a:hover{
+	color:rgb(214,35,93);
+	background-color:transparent;
+}
+ul.navbar a.active{
+	border-bottom:3px solid rgb(214,35,93);
+	border:0px;
+	background-color:rgb(214,35,93);
+	color:yellow;
+}
+section.box{
+	background-color:rgb(214,35,93);
+	padding:3px 3px 0px 3px;
+}
+section.content{
+	background-color:white;
+	display:flex;
+	flex-direction:row;
+	padding:40px 20px 20px 60px;
+}
+section.content img{
+	width:400px;
+	height:350px;
+}
+article{
+	width:35%;
+	height:350px;
+	border-radius:10px 10px 10px 10px;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	border:white solid 2px;
+	background-color:rgba(211,211,211,0.15);
+	padding-top:8px;
+	padding-left:15px;
+	margin-left:35px;
+}
+article p{
+	color:rgba(0,0,0,0.8);
+	width:96%;
+	font-size:1.0em;
+	font-weight:normal;
+	word-spacing:0.4em;
+	line-height:1.5em;
+	font-weight:normal;
+}
+#cont-butt{
+	margin-top:20px;
+}
+#cont-butt h3{
+ color:rgb(214,35,93);
+ text-align:center;
+ margin-top:40px;
+}
+#cont-butt a{
+	text-decoration:none;
+}
+#cont-butt button{
+   font-size:1.0em;
+   height:30px;
+   font-weight:bold;
+   text-align:center;
+   margin:5px;
+   padding:5px;
+   border:0px;
+}
+#cont-butt #butts{
+    display:flex;
+   flex-direction:row;
+   align-items:center;
+   justify-content:center;
+}
+#cont-butt button#butt-one{
+	background-color:yellow;
+	color:rgb(214,35,93);
+}
+#cont-butt button#butt-two{
+	background-color:rgb(214,35,93);
+	color:yellow;
+}
+#base{
+	width:100%;
+	background-color:rgb(214,35,93);
+	height:200px;
+	display:flex;
+	flex-direction:row;
+}
+section.identity{
+	background-color:rgb(214,35,93);
+	width:55%;
+	height:200px;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-around;
+}
+#flag img{
+width:300px;
+height:180px;
+margin-left:10px;
+}
+section.identity #social{
+	display:flex;
+	align-items:center;
+	flex-direction:row;
+	justify-content:center;
+}
+section.identity #social i{
+	color:white;
+    height:35px;
+    width:35px;
+    margin-right:10px;
+    font-size:25px;
+    font-weight:bold;
+    transition: all 0.2s ease-in-out;
+    display:flex;
+    justify-content: center;
+    align-items:center
+}
+section.identity #social i.fa-facebook{
+	background-color:#3b5998;
+} 
+section.identity #social i.fa-linkedin{
+	background-color:#007bb6;
+}
+section.identity #social i.fa-twitter{
+	background-color:#00aced;
+}
+section.identity #social i.fa-instagram{
+	background-color:#3f729b;
+}
+section.identity #social i.fa-youtube{
+	background-color:#c4302b;
+}
+ul.foot-links{
+	width:45%;
+	display:flex;
+	flex-direction:row;
+	align-self:flex-end;
+	align-items:center;
+	justify-content:space-around;
+}
+ul.foot-links li{
+	list-style-type:none;
+	color:yellow;
+	font-weight:thin;
+	margin-bottom:5px;
+}
+ul.foot-links a{
+	text-decoration:none;
+}
+a{
+text-decoration:none;
+}
+@media screen and (max-width:955px){
+  *{
+     box-sizing:border-box;
+     margin:0px;
+     padding:0px;
+  }
+  #block-a{
+  	width:100%;
+  	background-color:yellow;
+  }
+  #logo{
+	display:flex;
+	align-self:center;
+	justify-content:center;
+}
+#head-social{
+	display:flex;
+	justify-content:flex-end;
+}
+h2.Audiowide{
+font-family: "Audiowide", sans-serif;
+color:rgb(214,35,93);
+font-weight:bold;
+font-size:1.0em;
+}
+#head-social i{
+	color:yellow;
+    height:22px;
+    width:22px;
+    margin-right:10px;
+    font-size:12px;
+    border-radius:50%;
+    transition: all 0.2s ease-in-out;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.fa-facebook,.fa-instagram,.fa-linkedin,.fa-youtube,.fa-twitter {
+	background-color:rgb(214,35,93);
+}
+#block-b{
+	width:100%;
+	background-color:rgb(214,35,93);
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+#block-b h2{
+	color:yellow;
+	margin:4px 0px 10px 0px;
+	text-align:center;
+	font-size:1.0em;
+}
+#block-b #headimgs{
+ margin:10px 0px 15px 0px;
+}
+#block-b #desc{
+ display:flex;
+ flex-direction:column;
+}
+#desc-imgs{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-bottom:8px;
+}
+img.headimg{
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	margin:5px;
+}
+#block-b #desc-links{
+width:100%;
+background-color:yellow;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+}
+#block-b ul.desc{
+	margin-top:35px;
+	width:100%;
+	text-align:left;
+	color:rgba(255,245,0,1.0);
+	padding-left:65px;
+	font-size:1.0em;
+	display:none;
+}
+ul.desc li{
+	margin-top:8px;
+	margin-bottom:8px;
+	list-style-type:none;
+	display:none;
+}
+#block-b ul.navbar{
+	width:20%;
+    height:70px;
+	display:flex;
+	flex-direction:column;
+	align-self:center;
+	justify-content:center;
+	align-items:stretch;
+	padding:45px 0px 45px 0px;
+}
+ul.navbar li{
+	list-style-type:none;
+	margin-bottom:10px;
+	font-size:0.8em;
+	text-align:center;
+	font-weight:bold;
+}
+ul.navbar a:link{
+   text-decoration:none;
+   	padding:4px;
+   	color:rgb(214,35,93);
+}
+ul.navbar a.active{
+	border:0px 0px 0px 0px;
+	color:yellow;
+	height:25px;
+	background-color:rgb(214,35,93);
+}
+
+section.box{
+	background-color:rgb(214,35,93);
+	padding:3px 3px 0px 3px;
+}
+section.content{
+	background-color:white;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	padding:30px 0px 30px 0px;
+}
+section.content img{
+	width:90%;
+	height:250px;
+}
+article{
+	width:90%;
+	border-radius:0px 0px 0px 0px;
+	display:flex;
+	align-items:center;
+	/*flex-direction:column;*/
+	border:white solid 2px;
+	background-color:rgba(211,211,211,0.15);
+	padding-top:5px;
+	padding-left:10px;
+	margin:10px 0px 0px 0px;
+}
+article p{
+	color:rgba(0,0,0,0.8);
+	width:90%;
+	font-size:0.85em;
+	font-weight:normal;
+	word-spacing:0.4em;
+	line-height:1.5em;
+	font-weight:normal;
+}
+#cont-butt{
+	margin-top:10px 0px 0px 0px;
+}
+#cont-butt h3{
+ color:rgb(214,35,93);
+ text-align:center;
+ margin:30px 0px 0px 0px;
+ font-size:1.0em;
+}
+#cont-butt button{
+   font-size:0.85em;
+   height:23px;
+   font-weight:bold;
+   text-align:center;
+   margin:5px;
+   padding:3px;
+   border:0px;
+}
+#cont-butt #butts{
+    display:flex;
+   flex-direction:row;
+   justify-content:center;
+}
+#cont-butt a{
+	text-decoration:none;
+}
+#cont-butt button#butt-one{
+	background-color:yellow;
+	color:rgb(214,35,93);
+}
+#cont-butt button#butt-two{
+	background-color:rgb(214,35,93);
+	color:yellow;
+}
+ footer{
+ 	background-color:rgb(214,35,93);
+ }
+#base{
+	width:100%;
+	background-color:inherit;
+	display:flex;
+	flex-direction:column;
+	padding:20px 0px 0px 0px;
+}
+section.identity{
+	background-color:rgb(214,35,93);
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+#flag img{
+width:95%;
+height:150px;
+}
+section.identity #social{
+	display:flex;
+	align-items:center;
+	flex-direction:row;
+}
+section.identity #social i{
+	color:white;
+    height:25px;
+    width:25px;
+    margin:11px;
+    font-size:15px;
+    font-weight:bold;
+    transition: all 0.2s ease-in-out;
+    display:flex;
+    justify-content: center;
+    align-items:center
+}
+section.identity #social i.fa-facebook{
+	background-color:#3b5998;
+} 
+section.identity #social i.fa-linkedin{
+	background-color:#007bb6;
+}
+section.identity #social i.fa-twitter{
+	background-color:#00aced;
+}
+section.identity #social i.fa-instagram{
+	background-color:#3f729b;
+}
+section.identity #social i.fa-youtube{
+	background-color:#c4302b;
+}
+ul.foot-links{
+	width:100%;
+	background-color:yellow;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:space-around;
+}
+ul.foot-links li{
+	list-style-type:none;
+	color:rgb(214,35,93);
+	font-weight:thin;
+	padding:3px;
+	font-size:0.75em;
+	font-weight:bold;
+}
+ul.foot-links a{
+	text-decoration:none;
+}
+}
+</style>
+</head>
+<body>
+<header>
+<div id="block-a">
+<div id="logo">
+<a href="index.html"><h2 class="Audiowide">Al_Lukmanniy</h2></a>
+</div>
+<div id="head-social">
+<a href="https://www.facebook.com/profile.php?id=100064936297010"><i class="fab fa-facebook"></i></a>
+<a href="https://www.instagram.com/Al_Lukmmaniy/"><i class="fab fa-instagram"></i></a>
+<a href="https://www.linkedin.com/in/al-lukmmanniy-8aa3a2177"><i class="fab fa-linkedin"></i></a>
+<a href="https://mobile.twitter.com/lookmanworld"><i class="fab fa-twitter"></i></a>
+</div>
+</div>
+<div id="block-b">
+<div id="headimgs">
+<h2>!Hey There,Welcome to my Website...</h2>
+<div id="desc-imgs">
+<img src="images/headbackone.jpg" class="headimg">
+<img src="images/headbacktwo.jpg" class="headimg">
+<img src="images/headbackthree.jpg" class="headimg">
+</div>
+</div>
+<div id="desc-links">
+<ul class="desc">
+<li>I am a Web Designer</li>
+<li>I am a Web Developer</li>
+<li>I am a UI/UX designer</li>
+<li>I am a Website Programmer</li>
+</ul>
+<ul class="navbar">
+<a class= "active" href="index.html"><li>Home</li></a>
+<a href="portfolio.html"><li>Portfolio</li></a>
+<a  href="interest.html"><li>Interest</li></a>
+</ul>
+</div>
+</div>
+</header>
+<section class="box">
+<section class="content">
+<img src="images/homeimg.jpg" class="aboutimg">
+<article>
+	<div id="cont-butt">
+<p><big>I am</big> <u>Salman Lukman Oluwadamilare</u> from Nigeria.</p>
+<p>I am self-taught Web Developer</p>
+<p>I love to be a problem solver and get my hands dirty on productive task.</p>
+<p>I'll be available to create website for your business and organisations.</p>
+<h3>You want to know more about me?</h3>
+<div id="butts">
+<a href="biography.html"><button id="butt-one">Biography</button></a>
+<a href="favourite.html"><button id="butt-two">Favourites</button></a>
+</div>
+</div>
+</article>
+</section>
+</section>
+<footer>
+<div id="base">
+<section class="identity">
+<div id="flag">
+<img src="images/flag.jpg">
+</div>
+<div id="social">
+<a href="https://www.facebook.com/profile.php?id=100064936297010"><i class="fab fa-facebook"></i></a>
+<a href="https://www.instagram.com/Al_Lukmmaniy/"><i class="fab fa-instagram"></i></a>
+<a href="https://www.linkedin.com/in/al-lukmmanniy-8aa3a2177"><i class="fab fa-linkedin"></i></a>
+<a href="https://mobile.twitter.com/lookmanworld"><i class="fab fa-twitter"></i></a>
+</div>
+</section>
+<ul class="foot-links">
+<a href="sitemap.html"><li>Sitemap</li></a>	
+<a href="biography.html"><li>About Me</li></a>
+<li>Copyright Al_Lukmanniy 2022</li>
+</ul>
+</div>
+</footer>
+</body>
+</html>
